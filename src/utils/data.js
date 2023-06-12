@@ -21,34 +21,50 @@ export const projectExperience = [
   //   bg: "#F26440",
   // },
   {
-    name: "Education",
-    projects: "Master of Computer Applications",
+    name: "EXPERTISE",
+    projects: "IT Infrastructure Management, HealthCare Projects Design, Implementation and Support, Project Management, Development, Itegrations and Deployments, Database Management, Data Analytics and MIS, Quality Accreditations JCI, NABH, ISO",
     icon: HiOutlineDesktopComputer,
     bg: "#286F6C",
   },
+
   {
-    name: "Expertise",
-    projects: "IT Infrastructure Management,DevOps",
-    icon: HiOutlineDesktopComputer,
-    bg: "#286F6C",
-  },
-  {
-    name: "Project Management",
-    projects: "HIS/EMR Implementations, Health Care Apps Development",
+    name: "PROJECT MANAGEMENT",
+    projects: "HIS/EMR Implementations, Health Care Apps Development, Third Party integrations like Social Media, Payment gateways, Google Maps, Emails, SMS, LIS, RIS, Web and Mobile Apps and SAP PI",
     icon: CiMobile1,
     bg: "#EEC048",
   },
   {
-    name: "Techinical Skills",
-    projects: "SQL, TSQL, Pl/SQL, HTML, CSS, JavaScript, Python, Django, Rest API's, ReactJS",
+    name: "PROJECTS HANDELED",
+    projects: "I-Soft, CGSL Nuera, ShivamSoft,LekhiSoft, Arcus and Arcus Air, Medeaz, Docbizz, Moodle LMS, VC Solutions, Oracle Business Intelligence Portal, Opoto e-commerce, Real estate CRM, Online Exam portal and other Client specific websites",
     icon: MdWorkspacesOutline,
     bg: "#F26440",
+  },
+  {
+    name: "SOFTWARE SKILLS",
+    projects: "HTML, CSS, BootStrap, JavaScript, Python, Django, Flask , ORM, Rest API, Shell Scripting, YAM ReactJS, Oracle, PL/SQL,MS SQL, TSQL, PostgreSQL, MySQL, Firebase and MongoDB",
+    icon: HiOutlineDesktopComputer,
+    bg: "#286F6C",
+  },
+
+  {
+    name: "TOOLS",
+    projects: "Jira,Microsoft Visio, Adobe XD, Figma, Canva, Gitlab, Dockor, Jenkins, Postman, Cristal Reports, BI Publisher",
+    icon: CiMobile1,
+    bg: "#EEC048",
+  },
+  {
+    name: "AWS CLOUD AND DEPLOYMENTS",
+    projects: "EC2, LightSail, S3 Bucket, RDS, Route 53, Lambda, Nginx, Apache, IIS",
+    icon: CiMobile1,
+    bg: "#EEC048",
   },
 ];
 
 export const WhatDoIHelp = [
-  "Over 16 years’ experience as Health Care IT professional with strong experience in managing enterprise implementation of healthcare IT infrastructure and specialized in the implementation of EMR/HIS and healthcare apps to the Hospitals.  Executed health care projects in design and implementations for various hospitals, and successfully implemented in Hospital EMR/HIS at different locations across the Telangana and Andhra Pradesh. Trained Doctors, Paramedics, Operation Teams, Billing staff, System administrators, and other employee’s usage of EMR and HIS",
-  "Worked closely with CSC’s I-soft HIS, CGSL Neura HIS, LekhiSoft EMR, Shivam Soft HMS, Remedi HMS, Arcus HIS, Medeaz.com, Docbizz.com, Opoto.in, Rainbow VC, and other E-commerce and CRM Projects. Working as SME and Techno Functional Consultant between Hospitals and IT Developers",
+  "Results-driven Head of IT with 16+ years of experience in Health Care IT. Proven track record of developing and executing strategic plans to drive business growth, improve operational efficiency, and increase revenue. Strong leadership skills with the ability to build and manage high-performing teams and execute complex projects on time and within budget. Skilled in data analysis, financial planning and analysis, and risk management. Proficient in Microsoft certified technologies, Oracle and MS SQL Server Databases, TSQL/PLSQL, programming languages such as Python, Django, ReactJS, and Cloud platforms like AWS. Experienced in implementing EMR/HIS in hospitals and managing enterprise IT infrastructure.",
+  "Project Management: Successfully executed health care projects in design and implementation for various hospitals and trained staff in using EMR and HIS. Worked closely with various Healthcare IT Developers as a SME and Techno-Functional Consultant.",
+  "Technical Expertise: MCP, MCSA, MCITP certified. Proficient in Windows Server Administration 2003 to 2019. Ubuntu 16+ in both stand-alone and Cloud environments like AWS and Azure. Strong knowledge of Oracle and MS SQL Server databases, SQL, PL/SQL, BI Publisher, XML publisher, OBIEE, and Microsoft Power BI. Experienced in product development using Python, Django, Django Rest Framework, ReactJS, Oracle, MS SQL, PostgreSQL, MySQL, and MongoDB.",
+  "Health Care Expertise: Good knowledge of standards such as NABH, JCI, and clinical subject matter experience in ICD, CPT diagnosis and procedures. Worked on tariff preparations, data sanitization for surgical packages and services for various TPA/Insurance Companies, CGHS payers, PSU's, and Corporates. Developed dashboards and reports for clinical, operational, and revenue data analysis using BI tools."
 ];
 
 export const workExp = [

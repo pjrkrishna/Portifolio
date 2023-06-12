@@ -25,7 +25,7 @@ const Experties = () => {
                             </div>
                             <div>
                                 <span>{exp.name}</span>
-                                <span className='secondaryText'>{exp.projects} Projects</span>
+                                <span className='secondaryText'>{exp.projects}</span>
                             </div>
                         </motion.div>
                     })
