@@ -4,6 +4,25 @@ import css from './Experties.module.scss'
 import {motion} from 'framer-motion'
 import {fadeIn, staggerContainer, textVariant} from '../../utils/motion.js'
 const Experties = () => {
+    // const formatTextWithBold = (text, targetWord) => {
+    //     const parts = text.split(targetWord);
+    //     return parts.map((part, index) => (
+    //       <React.Fragment key={index}>
+    //         {part}
+    //         {index !== parts.length - 1 && <strong>{targetWord}</strong>}
+    //       </React.Fragment>
+    //     ));
+    //   };
+    const formatTextWithBold = (text, targetWords) => {
+        const parts = text.split(' ');
+        return parts.map((part, index) => {
+          if (targetWords.includes(part)) {
+            return <strong key={index}>{part} </strong>;
+          } else {
+            return <React.Fragment key={index}>{part} </React.Fragment>;
+          }
+        });
+      };
   return (
     <section className={css.wrapper}>
         <a className="anchor" id="experties"></a>
@@ -11,7 +30,7 @@ const Experties = () => {
         variants={staggerContainer}
         initial="hidden"
         whileInView="show"
-        viewport={{ once: false, amount: 0.25 }}
+        // viewport={{ once: false, amount: 0.25 }}
         className={`paddings yPaddings innerWidth flexCenter ${css.container}`}>
 
 
@@ -39,7 +58,7 @@ const Experties = () => {
             className={css.rightSide}>
 
                 <span className='primaryText'>What do I help? </span>
-                {WhatDoIHelp.map((paragraph, i)=> <span className='secondaryText' key={i}>{paragraph}</span>)}
+                {WhatDoIHelp.map((paragraph, i)=> <span className='secondaryText' key={i}>{formatTextWithBold(paragraph, ['Project', 'Management:', 'Technical','Expertise:','Health', 'Care'])}</span>)}
 
 
                 <div className={`flexCenter ${css.stats}`}>

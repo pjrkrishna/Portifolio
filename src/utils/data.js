@@ -1,5 +1,5 @@
 import { HiOutlineDesktopComputer } from "react-icons/hi";
-import { CiMobile1 } from "react-icons/ci";
+import { CiMobile1,CiMemoPad } from "react-icons/ci";
 import { MdWorkspacesOutline } from "react-icons/md";
 export const projectExperience = [
   // {
@@ -36,19 +36,25 @@ export const projectExperience = [
   {
     name: "PROJECTS HANDELED",
     projects: "I-Soft, CGSL Nuera, ShivamSoft,LekhiSoft, Arcus and Arcus Air, Medeaz, Docbizz, Moodle LMS, VC Solutions, Oracle Business Intelligence Portal, Opoto e-commerce, Real estate CRM, Online Exam portal and other Client specific websites",
-    icon: MdWorkspacesOutline,
+    icon: CiMemoPad,
     bg: "#F26440",
   },
   {
     name: "SOFTWARE SKILLS",
-    projects: "HTML, CSS, BootStrap, JavaScript, Python, Django, Flask , ORM, Rest API, Shell Scripting, YAM ReactJS, Oracle, PL/SQL,MS SQL, TSQL, PostgreSQL, MySQL, Firebase and MongoDB",
+    projects: "HTML, CSS, BootStrap, JavaScript, Python, Django, Flask, ORM, Django Rest API's, React JS, Shell Scripting, YAML, Oracle, PL/SQL,MS SQL, TSQL, PostgreSQL, MySQL, Firebase and MongoDB",
     icon: HiOutlineDesktopComputer,
     bg: "#286F6C",
   },
 
   {
     name: "TOOLS",
-    projects: "Jira,Microsoft Visio, Adobe XD, Figma, Canva, Gitlab, Dockor, Jenkins, Postman, Cristal Reports, BI Publisher",
+    projects: "Jira, Microsoft Visio, Adobe XD, Figma, Canva, Gitlab, Docker, Jenkins, Postman, Cristal Reports, BI Publisher",
+    icon: CiMobile1,
+    bg: "#EEC048",
+  },
+  {
+    name: "INTEGRATIONS",
+    projects: "Arenalin HCM, LIS, HL7 Mith Connect, RIS with Medsynaptics, SAP PI, Saulcro and Razor Pay Payment Gateways, Websites, Mobile Apps, Social Media Integrations and Other third party apps ",
     icon: CiMobile1,
     bg: "#EEC048",
   },
@@ -73,49 +79,49 @@ export const workExp = [
     tenure: "Feb 2022 - Mar 2023",
     role: "Sr. Manager, Group Level",
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+      "Mananing Enterprise level IT Infra including data center operations, Load Balacing, Replication, Backups, HIS, SAP and Other third party applications Support",
   },
   {
     place: "Medeaz Health Care Systems, Hyderabad",
     tenure: "Feb 2018 - Mar 2022",
     role: "Principle Architect and IT Head",
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+      "Health Care Apps Design, Development and Deployment support",
   },
   {
     place: "Rainbow Children's Hospitals, Hyderabad",
     tenure: "Feb 2017 - Mar 2018",
     role: "HIS Support Lead, Group Level",
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+      "HIS, SAP and Other third party applications support",
   },
   {
     place: "Continental Hospitals, Hyderabad",
     tenure: "Aug 2014 - Sep 2017",
     role: "Deputy Manager",
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+      "HIS Implimentation and Support operations",
   },
   {
     place: "GCM Tech Solutions, Hyderabad",
     tenure: "May 2012 - Oct 2014",
     role: "SQL Developer",
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+      "Database design, Development",
   },
   {
     place: "Gouatami Eye Institute, Rajahmundry",
     tenure: "Oct 2009 - Mar 2012",
     role: "IT-Manager",
     detail:
-      "A visual desginer dsesign2 for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+      "IT Infra, HIS Implementation and Support Operations",
   },
   {
     place: "Sai Bhavani Super Speciality Hospital, Hyderabad",
     tenure: "Aug 2006 - Sep 2009",
     role: "EDP In-Charge",
     detail:
-      "A visual desginer dsesign2 for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+      "IT Infra, HIS Implementation and Support Operations",
   },
 ];
 

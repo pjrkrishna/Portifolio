@@ -6,10 +6,32 @@ import { getMenuStyles, headerVariants } from "../../utils/motion";
 import useOutsideAlerter from "../../hooks/useOutsideAlerter";
 import useHeaderShadow from "../../hooks/useHeaderShadow";
 
+
 const Header = () => {
   const menuRef = useRef(null);
   const [menuOpened, setMenuOpened] = useState(false);
   const headerShadow = useHeaderShadow();
+
+  
+  const handleDownload = () => {
+    const pdfUrl = 'https://krishna-portfolio-bd38e.web.app/Krishna-HealthCare-IT-CV.pdf'; // Replace with your PDF file URL
+    const fileName = 'Krishna-HealthCare-IT-CV.pdf'; // Replace with the desired file name for the downloaded PDF
+  
+    fetch(pdfUrl)
+      .then(response => response.blob())
+      .then(blob => {
+        const url = URL.createObjectURL(blob);
+        const link = document.createElement('a');
+        link.href = url;
+        link.download = fileName;
+        link.click();
+        URL.revokeObjectURL(url);
+      })
+      .catch(error => {
+        console.error('Error:', error);
+      });
+  };
+  
 
   //to handle click outside of sidebar on mobile
   useOutsideAlerter({
@@ -27,13 +49,13 @@ const Header = () => {
       style={{boxShadow: headerShadow}}
     >
       <div className={`innerWidth ${css.container} flexCenter`}>
-        <div className={css.name}><BiDownload size={"35px"} /> </div>
+        <div className={css.name}><BiDownload size={"35px"} style={{cursor:"pointer"}} onClick={handleDownload} /></div>
         <ul
           className={`flexCenter ${css.menu}`}
           ref={menuRef}
           style={getMenuStyles(menuOpened)}
         >
-          <li><a href="#experties">Services</a></li>
+          <li><a href="#experties">SKILLS</a></li>
           <li><a href="#work">Experience</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#people">Testimonials</a></li>

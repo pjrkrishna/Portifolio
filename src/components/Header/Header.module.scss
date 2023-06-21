@@ -19,6 +19,12 @@
             font-weight: 500;
         }
 
+        .tooltip {
+            background-color: #333;
+            color: #fff;
+            padding: 8px;
+          }
+
         .menu {
 
             @media (max-width: $sm),

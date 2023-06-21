@@ -9,11 +9,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "firebase": "^9.22.2",
     "framer-motion": "^8.0.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.7.1",
     "react-slick": "^0.29.0",
+    "react-tooltip": "^5.14.0",
     "sass": "^1.57.1"
   },
   "devDependencies": {
