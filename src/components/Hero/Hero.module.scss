@@ -11,7 +11,7 @@
         .upperElements {
             @media (max-width: $sm) {
                 justify-content: center;
-                text-align: center;
+                text-align: left;
                 gap: 2rem;
             }
             display: flex;

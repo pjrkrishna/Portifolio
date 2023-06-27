@@ -16,7 +16,7 @@ const Hero = () => {
         className={`innerWidth ${css.container}`}
       >
         <div className={css.upperElements}>
-          <motion.span className="primaryText" variants={fadeIn("right", "tween", 0.2, 1)}>
+          <motion.span className="primaryText pml" variants={fadeIn("right", "tween", 0.2, 1)}>
             Hey There,
             <br />
             I'm Krishna Potarlanka.

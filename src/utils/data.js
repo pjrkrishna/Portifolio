@@ -54,13 +54,13 @@ export const projectExperience = [
   },
   {
     name: "INTEGRATIONS",
-    projects: "Arenalin HCM, LIS, HL7 Mith Connect, RIS with Medsynaptics, SAP PI, Saulcro and Razor Pay Payment Gateways, Websites, Mobile Apps, Social Media Integrations and Other third party apps ",
+    projects: "Adrenalin HCM, LIS, HL7 Mith Connect, RIS with Medsynaptics, SAP PI, Saulcro and Razor Pay Payment Gateways, Websites, Mobile Apps, Social Media Integrations and Other third party apps ",
     icon: CiMobile1,
     bg: "#EEC048",
   },
   {
     name: "AWS CLOUD AND DEPLOYMENTS",
-    projects: "EC2, LightSail, S3 Bucket, RDS, Route 53, Lambda, Nginx, Apache, IIS",
+    projects: "AWS IAM, EC2, LightSail, S3 Bucket, RDS, Route 53, Windows and Linux Servers, Lambda, Nginx, Apache, IIS",
     icon: CiMobile1,
     bg: "#EEC048",
   },
