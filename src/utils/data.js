@@ -22,7 +22,7 @@ export const projectExperience = [
   // },
   {
     name: "EXPERTISE",
-    projects: "IT Infrastructure Management, HealthCare Projects Design, Implementation and Support, Project Management, Development, Itegrations and Deployments, Database Management, Data Analytics and MIS, Quality Accreditations JCI, NABH, ISO",
+    projects: "Project Management, HIS Implementation and Support, IT Infrastructure and Network Management, Database Management, Applications Development\, Deployment and Delivery, MIS and Data Analytics",
     icon: HiOutlineDesktopComputer,
     bg: "#286F6C",
   },
@@ -41,14 +41,14 @@ export const projectExperience = [
   },
   {
     name: "SOFTWARE SKILLS",
-    projects: "HTML, CSS, BootStrap, JavaScript, Python, Django, Flask, ORM, Django Rest API's, React JS, Shell Scripting, YAML, Oracle, PL/SQL,MS SQL, TSQL, PostgreSQL, MySQL, Firebase and MongoDB",
+    projects: "C#, Python, Django, Django Rest Frame Work, React JS, HTML, CSS, Bootstrap, JavaScript, Shell Scripting Oracle, MS SQL, MySQL, PostgreSQL, MongoDB, SAP MM, FICO, PI and MS Office.",
     icon: HiOutlineDesktopComputer,
     bg: "#286F6C",
   },
 
   {
     name: "TOOLS",
-    projects: "Jira, Microsoft Visio, Adobe XD, Figma, Canva, Gitlab, Docker, Jenkins, Postman, Cristal Reports, BI Publisher",
+    projects: "Jira, Microsoft Visio, VS Code, Git, Docker, Figma, Cristal Reports, Oracle BI Publisher, SSRS, Report Builder.",
     icon: CiMobile1,
     bg: "#EEC048",
   },
@@ -60,23 +60,27 @@ export const projectExperience = [
   },
   {
     name: "AWS CLOUD AND DEPLOYMENTS",
-    projects: "AWS IAM, EC2, LightSail, S3 Bucket, RDS, Route 53, Windows and Linux Servers, Lambda, Nginx, Apache, IIS",
+    projects: "AWS IAM, EC2, LightSail, S3 Bucket, RDS, Route 53, Lambda, and Nginx, Apache, IIS Web Servers, Windows and Ubuntu Servers, Routers, Access Points and Firewall Configurations.",
     icon: CiMobile1,
     bg: "#EEC048",
   },
 ];
 
 export const WhatDoIHelp = [
-  "Results-driven Head of IT with 16+ years of experience in Health Care IT. Proven track record of developing and executing strategic plans to drive business growth, improve operational efficiency, and increase revenue. Strong leadership skills with the ability to build and manage high-performing teams and execute complex projects on time and within budget. Skilled in data analysis, financial planning and analysis, and risk management. Proficient in Microsoft certified technologies, Oracle and MS SQL Server Databases, TSQL/PLSQL, programming languages such as Python, Django, ReactJS, and Cloud platforms like AWS. Experienced in implementing EMR/HIS in hospitals and managing enterprise IT infrastructure.",
-  "Project Management: Successfully executed health care projects in design and implementation for various hospitals and trained staff in using EMR and HIS. Worked closely with various Healthcare IT Developers as a SME and Techno-Functional Consultant.",
-  "Technical Expertise: MCP, MCSA, MCITP certified. Proficient in Windows Server Administration 2003 to 2019. Ubuntu 16+ in both stand-alone and Cloud environments like AWS and Azure. Strong knowledge of Oracle and MS SQL Server databases, SQL, PL/SQL, BI Publisher, XML publisher, OBIEE, and Microsoft Power BI. Experienced in product development using Python, Django, Django Rest Framework, ReactJS, Oracle, MS SQL, PostgreSQL, MySQL, and MongoDB.",
-  "Health Care Expertise: Good knowledge of standards such as NABH, JCI, and clinical subject matter experience in ICD, CPT diagnosis and procedures. Worked on tariff preparations, data sanitization for surgical packages and services for various TPA/Insurance Companies, CGHS payers, PSU's, and Corporates. Developed dashboards and reports for clinical, operational, and revenue data analysis using BI tools."
+  "Qualified Healthcare IT Professional with 16+ years of experience in Project Management, IT Infrastructure Maintenance and Delivery Management of HIS Development and Implementation.",
+"Worked as a Business Analyst, Subject Matter Expert (SME), and Techno-Functional Consultant for multiple hospitals, implementing Hospital Information Systems (HIS/EMR) end to end solutions with all HIS modules across Telangana and Andhra Pradesh.",
+"Technical leadership in organizing and directing the creation of technology-enabled solutions, including application design, development, and preparation of FRS, SRS, and database architecture.",
+"Proficiency in analysis and HL7 interface with PACS and LAB equipment. Additionally, there is direct interface with third-party applications (such as SAP MM, FICO, Adrenalin HCM, Mirth Connect, Payment Gateways, SMS/Email, and Social Media Integrations).",
+"Strong technical background in database administration and BI tools (Oracle BI, Power BI), covering RDBMS and NoSQL databases (MS SQL, Oracle, PostgreSQL, MySQL, and MongoDB).",
+"Proven expertise in Server and Network administration, proficiently managing Windows (2003 to 2019) and Linux (Ubuntu 16+) servers. Skilled in configuring Nginx, Apache, and IIS web servers, executing seamless project deployments, implementing robust database backup and restore procedures, and efficiently scheduling critical activities.",
+"Knowledgeable about developing projects in Python, Django, C#, TS/SQL, PL/SQL, HTML, CSS, JavaScript, Django Rest API, and React JS.",
+"Involved in more than 20+ hospitals to establish appropriate procedures and reap the rewards of putting in place an enterprise-wide hospital information system."
 ];
 
 export const workExp = [
   {
     place: "Rarinbow Children's Medicare Ltd, Hyderabad",
-    tenure: "Feb 2022 - Mar 2023",
+    tenure: "Feb 2022 - May 2023",
     role: "Sr. Manager, Group Level",
     detail:
       "Mananing Enterprise level IT Infra including data center operations, Load Balacing, Replication, Backups, HIS, SAP and Other third party applications Support",
@@ -125,71 +129,71 @@ export const workExp = [
   },
 ];
 
-export const comments = [
-  {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
-    comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people2.png",
-  },
-  {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
-    comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people1.png",
-  },
-  {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
-    comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people2.png",
-  },
-  {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
-    comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people1.png",
-  },
-  {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
-    comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people2.png",
-  },
-  {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
-    comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people1.png",
-  },
-  {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
-    comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people2.png",
-  },
-  {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
-    comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people1.png",
-  },
-  {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
-    comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people2.png",
-  },
-];
+// export const comments = [
+//   {
+//     name: "Anamika Sandula",
+//     post: "Creative Manager",
+//     comment:
+//       "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+//     img: "./people2.png",
+//   },
+//   {
+//     name: "Anamika Sandula",
+//     post: "Creative Manager",
+//     comment:
+//       "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+//     img: "./people1.png",
+//   },
+//   {
+//     name: "Anamika Sandula",
+//     post: "Creative Manager",
+//     comment:
+//       "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+//     img: "./people2.png",
+//   },
+//   {
+//     name: "Anamika Sandula",
+//     post: "Creative Manager",
+//     comment:
+//       "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+//     img: "./people1.png",
+//   },
+//   {
+//     name: "Anamika Sandula",
+//     post: "Creative Manager",
+//     comment:
+//       "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+//     img: "./people2.png",
+//   },
+//   {
+//     name: "Anamika Sandula",
+//     post: "Creative Manager",
+//     comment:
+//       "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+//     img: "./people1.png",
+//   },
+//   {
+//     name: "Anamika Sandula",
+//     post: "Creative Manager",
+//     comment:
+//       "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+//     img: "./people2.png",
+//   },
+//   {
+//     name: "Anamika Sandula",
+//     post: "Creative Manager",
+//     comment:
+//       "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+//     img: "./people1.png",
+//   },
+//   {
+//     name: "Anamika Sandula",
+//     post: "Creative Manager",
+//     comment:
+//       "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+//     img: "./people2.png",
+//   },
+// ];
 
 export const sliderSettings = {
   dots: true,
