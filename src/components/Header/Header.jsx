@@ -14,7 +14,7 @@ const Header = () => {
   
   const handleDownload = () => {
     const pdfUrl = 'https://krishna-portfolio-bd38e.web.app/CV-Latest-updated.pdf'; // Replace with your PDF file URL
-    const fileName = 'Krishna-HealthCare-IT-CV.pdf'; // Replace with the desired file name for the downloaded PDF
+    const fileName = 'CV-Latest-updated.pdf'; // Replace with the desired file name for the downloaded PDF
   
     fetch(pdfUrl)
       .then(response => response.blob())
